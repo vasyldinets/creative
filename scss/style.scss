@@ -4,6 +4,7 @@
 body{
 	background: url('../img/background.png');
 	overflow-x: hidden;
+	min-width: 340px;
 }
 
 /*header*/
@@ -186,6 +187,9 @@ body{
 			&:hover {
 				opacity: 0.6;
 			}
+			img{
+				width: 100%;
+			}
 		}
 
 		.ba-main__img{
@@ -250,6 +254,9 @@ body{
 /*aside*/
 .ba-nopad{
 	padding-right: 0;
+	@media (max-width: 640px){
+		padding-left: 0;
+	}
 }
 .ba-aside{
 	position: relative;
@@ -530,7 +537,7 @@ body{
 }
 .arrow_box:before {
 	border-color: rgba(149, 149, 149, 0);
-	border-bottom-color: #959595;
+	border-bottom-color: $secondary-color;
 	border-width: 16px;
 	margin-left: -16px;
 }
