@@ -4543,6 +4543,7 @@ body {
 
 .ba-post .ba-post__img a:hover {
   opacity: 0.6;
+  background: none;
 }
 
 .ba-post .ba-post__img .ba-main__img {
@@ -4556,6 +4557,10 @@ body {
   height: 48px;
   border-radius: 50%;
   background-color: #F26C4F;
+}
+
+.ba-post .ba-post__img .ba-post__social:hover {
+  opacity: 1;
 }
 
 .ba-post .ba-post__img .ba-facebook {
@@ -4909,7 +4914,7 @@ body {
 }
 
 .ba-footer .ba-footer__social a:hover {
-  opacity: 0.6;
+  background: none;
 }
 
 .ba-footer .ba-footer__social .ba-facebook {
