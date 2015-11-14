@@ -4462,7 +4462,7 @@ body {
 }
 
 .ba-header .top-bar {
-  background: url("../img/headermenu.svg");
+  background: url("../img/headermenu.png");
   position: relative;
   z-index: 10;
 }
@@ -4479,7 +4479,7 @@ body {
 
 .ba-header .top-bar:after {
   left: 100%;
-  background: url("../img/headermenu.svg");
+  background: url("../img/headermenu.png");
 }
 
 .ba-header .top-bar .name {
@@ -4504,7 +4504,7 @@ body {
 }
 
 .ba-header .top-bar .top-bar.expanded {
-  background: url("../img/headermenu.svg");
+  background: url("../img/headermenu.png");
 }
 
 .ba-header .ba-header__img {
@@ -4523,7 +4523,7 @@ body {
   right: 0;
   bottom: -5px;
   top: 0;
-  background: url("../img/headermenu.svg");
+  background: url("../img/headermenu.png");
   opacity: .3;
 }
 
