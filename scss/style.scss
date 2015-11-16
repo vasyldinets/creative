@@ -313,7 +313,8 @@ body{
 			position: relative;
 			margin-top: 5px;
 			input {
-				padding: 25px 40px;
+				padding: 0 40px;
+				height:52px;
 				border: 1px solid $secondary-color;
 				border-radius: 3px;
 				font-size: 12px;
