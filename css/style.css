@@ -42,6 +42,7 @@ nav,
 section,
 summary {
   display: block;
+
 }
 input[type="text"],
 input[type="email"],
